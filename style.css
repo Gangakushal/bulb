@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.bulb {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white; 
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f5e8d7;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e4d4c1;
+}
